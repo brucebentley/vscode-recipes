@@ -1,0 +1,70 @@
+# Os-Specific Crap
+.DS_Store
+Desktop.ini
+._*
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Logs
+logs
+*.stackdump
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime Data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temp Stuff
+tmp/
+*.tmp
+*.bak
+_test*
+
+# Node-Waf Configuration
+.lock-wscript
+
+# Compiled Binary Addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency Directories
+bower_components/
+node_modules/
+jspm_packages/
+
+# Typescript V1 Declaration Files
+typings/
+
+# Optional Npm Cache Directory
+.npm
+
+# Optional Eslint Cache
+.eslintcache
+
+# Optional Repl History
+.node_repl_history
+
+# Output Of 'Npm Pack'
+*.tgz
+
+# Yarn Integrity File
+.yarn-integrity
+
+# Dotenv Environment Variables File
+.env
+
+
+# Parcel-Bundler Cache (https://parceljs.org/)
+.cache
+
+# Serverless Directories
+.serverless
+
+# Built Web Extension Files
+*.xpi
+*.zip
