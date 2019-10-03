@@ -4,8 +4,8 @@ by [Bruce Bentley ( @bruce_bentley )](https://github.com/brucebentley/)
 
 A collection of recipes for using Visual Studio Code with particular technologies.
 
-<p align="center" style="margin: 0;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Sdg0ef2PpBw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sdg0ef2PpBw" frameborder="0" allowfullscreen></iframe>
 </p>
 
 ## Technology Scaffolding Tools
