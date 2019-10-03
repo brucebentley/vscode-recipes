@@ -63,5 +63,5 @@ A collection of recipes for using Visual Studio Code with particular technologie
 [Debugging Gatsby.js build process]: https://github.com/brucebentley/vscode-recipes/tree/master/Gatsby.js
 [Debugging Cake build scripts]: https://github.com/brucebentley/vscode-recipes/tree/master/debugging-Cake-scripts
 [Debugging Python]: https://github.com/brucebentley/vscode-recipes/tree/master/Python
-[Debugging TypeScript in a Docker Container]: https://github.com/weinand/vscode-recipes/tree/master/Docker-Typescript
-[Debugging Electron Main and Renderer processes]: https://github.com/brucebentley/vscode-recipes/blob/master/Electron
+[Debugging TypeScript in a Docker Container]: https://github.com/brucebentley/vscode-recipes/tree/master/Docker-TypeScript
+[Debugging Electron Main and Renderer processes]: https://github.com/brucebentley/vscode-recipes/tree/master/Electron
