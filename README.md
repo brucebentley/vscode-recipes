@@ -4,6 +4,10 @@ by [Bruce Bentley ( @bruce_bentley )](https://github.com/brucebentley/)
 
 A collection of recipes for using Visual Studio Code with particular technologies.
 
+<p align="center" style="margin: 0;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Sdg0ef2PpBw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 ## Technology Scaffolding Tools
 
 + [Debugging Angular apps with Angular CLI][Debugging Angular apps with Angular CLI]
