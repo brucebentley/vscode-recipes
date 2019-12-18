@@ -8,6 +8,6 @@
   "author": "Kamat, Trivikram",
   "license": "ISC",
   "dependencies": {
-    "tap": "14.10.4"
+    "tap": "14.10.5"
   }
 }
