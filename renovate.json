@@ -2,7 +2,7 @@
   "extends": [ "config:base" ],
   "automerge": true,
   "lockFileMaintenance": {
-    "enabled": true,
+    "enabled": true
   },
   "packageRules": [
     {
@@ -11,7 +11,7 @@
     }, {
       "updateTypes": [ 
         "minor", "patch", "pin", "lockFileMaintenance", "rollback", "bump"
-      ],
-    },
-  ],
+      ]
+    }
+  ]
 }
