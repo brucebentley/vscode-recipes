@@ -1,5 +1,12 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "automerge": true,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "updateTypes": [ 
+    "minor", "patch", "pin", "digest", "lockFileMaintenance", "rollback", "bump"
+  ],
 }
