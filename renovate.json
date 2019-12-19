@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "automerge": true,
+  "lockFileMaintenance": {
+    "enabled": true,
+  },
+  "packageRules": [
+    {
+      "updateTypes": [ "major" ],
+      "labels": [ "UPDATE-MAJOR" ]
+    }, {
+      "updateTypes": [ 
+        "minor", "patch", "pin", "lockFileMaintenance", "rollback", "bump"
+      ],
+    },
+  ],
+}
