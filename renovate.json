@@ -4,9 +4,16 @@
   ],
   "automerge": true,
   "lockFileMaintenance": {
-    "enabled": true
+    "enabled": true,
   },
-  "updateTypes": [ 
-    "minor", "patch", "pin", "digest", "lockFileMaintenance", "rollback", "bump"
+  "packageRules": [
+    {
+      "updateTypes": [ "major" ],
+      "labels": [ "UPDATE-MAJOR" ]
+    }, {
+      "updateTypes": [ 
+        "minor", "patch", "pin", "lockFileMaintenance", "rollback", "bump"
+      ],
+    },
   ],
 }
