@@ -9,9 +9,12 @@
       "updateTypes": [ "major" ],
       "labels": [ "UPDATE-MAJOR" ]
     }, {
+      "automerge": true,
       "updateTypes": [ 
         "minor", "patch", "pin", "lockFileMaintenance", "rollback", "bump"
       ]
     }
   ]
 }
+
+
