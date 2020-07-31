@@ -8,6 +8,6 @@
   "author": "Jag Reehal",
   "license": "ISC",
   "dependencies": {
-    "jest": "26.2.1"
+    "jest": "26.2.2"
   }
 }
