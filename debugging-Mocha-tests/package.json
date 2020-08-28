@@ -9,6 +9,6 @@
   "license": "ISC",
   "dependencies": {
     "chai": "4.2.0",
-    "mocha": "8.1.2"
+    "mocha": "8.1.3"
   }
 }
