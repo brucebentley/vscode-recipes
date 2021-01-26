@@ -1,4 +1,3 @@
-
 {
   "timezone": "America/New_York",
   "extends": [
@@ -17,7 +16,6 @@
     {
       "automerge": true,
       "depTypeList": [ "devDependencies" ],
-      "rangeStrategy": "bump",
       "updateTypes": [ "minor", "patch", "pin", "digest" ]
     }
   ],
