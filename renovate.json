@@ -1,20 +1,25 @@
+
 {
-  "extends": [ "config:base" ],
-  "automerge": true,
+  "timezone": "America/New_York",
+  "extends": [
+    "config:base",
+    ":preserveSemverRanges",
+    "group:all",
+    "schedule:monthly",
+    ":maintainLockFilesMonthly"
+  ],
+  "rangeStrategy": "replace",
   "lockFileMaintenance": {
-    "enabled": true
+    "enabled": true,
+    "extends": "group:all"
   },
   "packageRules": [
     {
-      "updateTypes": [ "major" ],
-      "labels": [ "UPDATE-MAJOR" ]
-    }, {
       "automerge": true,
-      "updateTypes": [ 
-        "minor", "patch", "pin", "lockFileMaintenance", "rollback", "bump"
-      ]
+      "depTypeList": [ "devDependencies" ],
+      "rangeStrategy": "bump",
+      "updateTypes": [ "minor", "patch", "pin", "digest" ]
     }
-  ]
+  ],
+  "commitMessageAction": "Update"
 }
-
-
