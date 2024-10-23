@@ -8,7 +8,7 @@
   "author": "Jag Reehal",
   "license": "ISC",
   "dependencies": {
-    "chai": "4.2.0",
-    "mocha": "8.2.1"
+    "chai": "5.1.2",
+    "mocha": "10.7.3"
   }
 }
